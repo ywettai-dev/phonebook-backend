@@ -1,1 +1,1 @@
-# SIMPLE PHONEBOOK APPLICATION - BACKEND
+# Simple phonebook application - BACKEND
