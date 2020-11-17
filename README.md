@@ -1,4 +1,4 @@
 # Simple phonebook application
 
-* Front end: <https://simplephonebookapp.herokuapp.com>
-* Back end: <https://simplephonebookapp.herokuapp.com/api/persons>
+* Frontend: <https://simplephonebookapp.herokuapp.com>
+* Backend: <https://simplephonebookapp.herokuapp.com/api/persons>
