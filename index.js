@@ -60,10 +60,12 @@ app.post('/api/persons', (req, res, next) => {
         number: body.number,
     })
 
-    person.save().then(savedPerson => {
-        res.json(savedPerson)
-    })
-    .catch(err => next(err))
+    person.save()
+        .then(savedPerson => savedPerson.toJSON())
+        .then(savedAndFormattedPerson => {
+            res.json(savedAndFormattedPerson)
+        })
+        .catch(err => next(err))
 })
 
 app.put('/api/persons/:id', (req, res, next) => {
